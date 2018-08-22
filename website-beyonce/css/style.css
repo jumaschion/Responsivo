@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+body {
+  background-image: url(../img/fundo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'lato', helvetica, sans-serif;
+}
+
+.imagembeyonce {
+margin:20px;
+
+}
+
+.nome {
+ text-align: center;
+ color:#5D1277;
+}
+
+.profissao {
+  padding: 20px;
+  color: #4F4F4F;
+  Font Style: SemiBold;
+  Font Size: 24px;
+  Line Height: 29px;
+}
+
+.caixa {
+  background: white;
+  width: 40%;
+  margin:0;
+  margin: auto;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,.4);
+}
+
+.social img {
+padding: 20px 15px;
+width: 50px;
+
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 420px) {
+
+.caixa {
+  width: 100%;
+  padding: 5%;
+}
+
+.imagembeyonce {
+  width: 25%;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.beyonce {
+  width: 100%;
+
+}
+
+.nome {
+  font-size: 15px;
+}
+
+.nomeprofissao {
+  display: inline-block;
+  width: 30%;
+  margin-left: 30%;
+  vertical-align: top;
+}
+
+.profissao {
+  font-size: 15px;
+  padding: 0%;
+}
+
+.icose-social {
+  width: 70%;
+  
+ 
+}
+
+}
